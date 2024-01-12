@@ -38,8 +38,6 @@ function handleTryClick(event) {
 function handleResetClick () {
     toggleScreen()
 
-    randomNumber()
-
     Math.round(Math.random() * 10)
     xAttempts = 1
 }
